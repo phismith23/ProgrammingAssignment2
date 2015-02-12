@@ -68,6 +68,6 @@ cacheSolve <- function(x, ...) {
       }
       d  <- x$get()
       inv <- solve(d, ...)
-      x$setinv(inv)  ##Set the inveres value of x
+      x$setinv(inv)  ##Set the inverse value of x
       inv
 }
